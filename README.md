@@ -20,7 +20,7 @@ An AI-powered resume analyzer that scores how well your resume matches a job des
 
 | Main Interface | Results |
 |---|---|
-| ![Main](./screenshots/main.png) | ![Results](./screenshots/results.png) |
+| ![Main](./screenshots/main.png) | ![Results](./screenshots/result.png) |
 
 | Strengths | Improvements |
 |---|---|
