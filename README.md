@@ -1,16 +1,75 @@
-# React + Vite
+# 🎯 ResumeAI — AI Resume Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered resume analyzer that scores how well your resume matches a job description and gives you actionable improvement tips.
 
-Currently, two official plugins are available:
+![ResumeAI Screenshot](./screenshots/main.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- 📄 **Upload your resume** — drag & drop PDF or paste text directly
+- 📝 **Paste any job description** — works with any role or company
+- ⚡ **Instant AI analysis** — powered by Groq (Llama 3.3 70B)
+- 📊 **Match score** — get a score out of 100 with a visual ring
+- 🎯 **Skills analysis** — see matched vs missing skills at a glance
+- 💪 **Strengths** — know what's working in your resume
+- 🔧 **Areas to improve** — specific, actionable feedback
+- ⚡ **Quick wins** — small changes with big impact
+- 🔍 **ATS keyword gaps** — keywords missing for applicant tracking systems
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Screenshots
 
-## Expanding the ESLint configuration
+| Main Interface | Results |
+|---|---|
+| ![Main](./screenshots/main.png) | ![Results](./screenshots/results.png) |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Strengths | Improvements |
+|---|---|
+| ![Strengths](./screenshots/strengths.png) | ![Improvements](./screenshots/improvements.png) |
+
+## 🚀 Live Demo
+
+👉 [Try it here](https://resume-analyzer-aayush.vercel.app)
+
+## 🛠️ Tech Stack
+
+- **React** + **Vite** — frontend framework
+- **Groq API** (Llama 3.3 70B) — AI analysis
+- **PDF.js** — PDF text extraction
+- **Vercel** — hosting & deployment
+
+## 🏃 Run Locally
+
+1. Clone the repo:
+```bash
+git clone https://github.com/Aayush-25/resume-analyzer.git
+cd resume-analyzer
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Create a `.env` file:
+```
+VITE_GROQ_API_KEY=your_groq_api_key_here
+```
+
+4. Start the dev server:
+```bash
+npm run dev
+```
+
+5. Open [http://localhost:5173](http://localhost:5173)
+
+## 🔑 Get a Free API Key
+
+Get a free Groq API key at [console.groq.com](https://console.groq.com) — no credit card required.
+
+## 📄 License
+
+MIT — free to use and modify.
+
+---
+
+Built with ❤️ by [Aayush Upadhyay](https://github.com/Aayush-25)
