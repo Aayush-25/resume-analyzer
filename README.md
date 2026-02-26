@@ -28,7 +28,7 @@ An AI-powered resume analyzer that scores how well your resume matches a job des
 
 ## 🚀 Live Demo
 
-👉 👉 [Try it here](https://resume-analyzer-2gpaev5f5-aayush-25s-projects.vercel.app)
+👉 👉 👉 [Try it here](https://resume-analyzer-red-six.vercel.app)
 
 ## 🛠️ Tech Stack
 
