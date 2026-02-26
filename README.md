@@ -62,12 +62,6 @@ npm run dev
 
 5. Open [http://localhost:5173](http://localhost:5173)
 
-## 🔑 Get a Free API Key
-
-Get a free Groq API key at [console.groq.com](https://console.groq.com) — no credit card required.
-
-## 📄 License
-
 MIT — free to use and modify.
 
 ---
